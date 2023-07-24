@@ -1,0 +1,10 @@
+create table jobs (
+  id SERIAL PRIMARY KEY,
+  title TEXT,
+  salary TEXT,
+  company TEXT,
+  email TEXT,
+  new integer,
+  createdAt text,
+  updateAt text
+)
