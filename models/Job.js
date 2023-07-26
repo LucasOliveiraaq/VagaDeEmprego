@@ -4,22 +4,22 @@ const sequelize = require('../db/connection');
 
 const Job = db.define('job', {
     title:{
-        type: sequelize.STRING,
+        type: Sequelize.STRING,
     },
     description: {
-        type: sequelize.STRING,
+        type: Sequelize.STRING,
     },
     salary: {
-        type: sequelize.STRING,
+        type: Sequelize.STRING,
     },
     company: {
-        type: sequelize.STRING,
+        type: Sequelize.STRING,
     },
     email: {
-        type: sequelize.STRING,
+        type: Sequelize.STRING,
     },
     new_job: {
-        type: sequelize.INTEGER,
+        type: Sequelize.INTEGER,
     }
 });
 
