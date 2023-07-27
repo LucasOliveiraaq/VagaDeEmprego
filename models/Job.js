@@ -21,6 +21,8 @@ const Job = db.define('job', {
     new_job: {
         type: Sequelize.INTEGER,
     }
+}, {
+    timestamps: false // Desabilita a criação automática de colunas do Sequelize.
 });
 
 module.exports = Job;

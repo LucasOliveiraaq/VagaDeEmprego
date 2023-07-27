@@ -1,10 +1,9 @@
-create table jobs (
+CREATE TABLE jobs (
   id SERIAL PRIMARY KEY,
   title TEXT,
+  description TEXT, 
   salary TEXT,
   company TEXT,
   email TEXT,
-  new integer,
-  createdAt text,
-  updateAt text
-)
+  new_job integer
+);
